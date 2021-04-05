@@ -1,0 +1,29 @@
+div.places {
+  box-sizing: border-box;
+  position: fixed;
+  top: 60px;
+  left: 20px;
+  z-index: 1;
+  width: 200px;
+  padding: 8px;
+  background-color: #fff;
+  /* border-radius: 4px;
+  overflow: hidden; */
+}
+
+div.place-item,
+div.no-results {
+  background-color: #fff;
+  padding: 8px 8px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+div.no-results {
+  color: #666;
+}
+
+div.place-item:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}

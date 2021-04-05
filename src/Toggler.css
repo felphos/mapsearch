@@ -1,0 +1,23 @@
+div.toggler {
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  z-index: 1;
+}
+
+div.toggler button {
+  background-color: #fff;
+  appearance: none;
+  border: none;
+  font-family: inherit;
+  padding: 4px 8px;
+  margin-right: 4px;
+  color: #666;
+  outline: none;
+  border-radius: 4px;
+}
+
+div.toggler button.selected {
+  background-color: #000;
+  color: #fff;
+}
